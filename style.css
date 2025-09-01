@@ -5,19 +5,23 @@
 
 body {
     max-width: 100%;
+    max-height: 100%;
+    width: 960px;
     margin: auto;
     font-size: 18px;
     position: relative;
-    background: #000000;
-    background: linear-gradient(to right, #000000, #434343);
+    background: #222121;
     color: white;
     font-family: Onest;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px dashed burlywood;
+    border-radius: 5px;
 }
 
 a,
@@ -60,8 +64,8 @@ a:hover {
     font-weight: 600;
     font-size: 38px;
     text-decoration: none;
-    background: #141053;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(28, 28, 172) 43%, rgba(0, 212, 255, 1) 100%);
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 80%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -75,27 +79,63 @@ a:hover {
 }
 
 #resume {
-    margin: 20px;
+    margin: 17px;
     cursor: pointer;
     width: 150px;
-    height: 50px;
+    height: 35px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: medium;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6e6e6e;
+    background-color: chocolate;
     color: wheat;
     border: none;
 }
 
 #resume:hover {
-    background-color: #2d2d2d;
+    background-color: rgb(216, 122, 54);
 }
 
 #resume img {
     padding-left: 6px;
     padding-bottom: 2px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contact {
+    color: bisque;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#contact:hover {
+    background-color: chocolate;
+}
+
+footer a {
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    padding: 1px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration-color: white;
 }
